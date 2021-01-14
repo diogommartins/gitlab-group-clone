@@ -33,6 +33,6 @@ pipenv run clone --help
 A configuração funciona através das seguintes variáveis de ambiente
 
 - `GITLAB_URL` - Default `https://gitlab.olxbr.io/`
-- `GITLAB_TOKEN` - Personal Access Token. Pode ser gerado aqui: [https://gitlab.olxbr.io/profile/personal_access_tokens](https://gitlab.olxbr.io/profile/personal_access_tokens)  
+- `GITLAB_TOKEN` - Personal Access Token. Leia mais: [https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)  
 - `OUTPUT_PATH` - Output path que será usado como prefixo para git clones. Default `./output`
 - `MAX_CONCURRENCY` - Máximo de git clones concorrentes. Defaults `4`
